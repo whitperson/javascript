@@ -1,0 +1,20 @@
+
+
+LAB 6 INstructions: 
+
+text box - INPUT text
+
+7 buttons: 
+clear - click - clears text 
+
+normal - dbclick - sends text to OUTPUT
+
+big - hover - makes font large font and green
+
+small - hover - makes font small and red
+
+reverse - hover - reverses text, and makes it BLUE and ITALIC
+
+black - click - changes background to black
+
+yellow - click - changes background to black
