@@ -1,0 +1,81 @@
+/* 
+Project Name: ATM2
+Client: General Assembly 
+Author: Team 3
+Developer @GA in NYC
+*/
+
+/*
+LAYOUT STYLES
+*/
+
+body
+{
+	background-color: #393937;
+	font-family: 'Russo One', sans-serif;
+}
+
+#app
+{
+	background-color: #cccccc;
+	margin: 0px auto;
+	width: 600px;
+	padding: 25px;
+	font-family: 'Russo One', sans-serif;
+}
+
+#header
+{
+	font-size: 40px;
+	margin: 30px;
+	padding: 30px;
+	font-family: 'Russo One', sans-serif;
+	background: url('../images/ga_logo.png') no-repeat;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Russo One', sans-serif;
+}
+
+input[type="button"] 
+{
+     background-color: #D23E3A;
+     margin: 10px;
+     padding: 10px;
+     border-radius: 10px;
+     border: 4px black double; 
+     font-family: 'Russo One', sans-serif;
+     font-size: 12px; 
+     text-align: center;
+
+}
+
+input[type="text"] 
+{
+     margin: 10px;
+     padding: 10px;
+     border-radius: 10px;
+     border: 4px black double; 
+     font-family: 'Russo One', sans-serif;
+     font-size: 12px; 
+}
+
+
+#output_checking
+{
+	font-family: 'Russo One', sans-serif;
+	font-size: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	border-bottom: 2px solid #252525;
+}
+
+#output_savings
+{
+font-family: 'Russo One', sans-serif;
+font-size: 20px;
+padding-bottom: 10px;
+margin-bottom: 15px;
+border-bottom: 2px solid #252525;
+} 

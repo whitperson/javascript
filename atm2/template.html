@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html> 
+	<head>
+		<title>Javascript Template</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/template.css">
+		<link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
+		<script src="jquery-1.8.2.js"></script>
+		<script src="template.js"></script>
+	</head>
+
+	  <body>
+		<div id="app">
+			<div id="header">Bank of GA</div>
+				<div id="checkingaccount">
+					<h1>Checking Account</h1>
+					<div id="output_checking">balance: $<span id="balance_checking">1000</span>.00 - overdraft comes from Savings Account
+						</div>
+						<div id="controls_checking">
+							<input id="amount_checking" type="text" placeholder="Enter an amount" />
+							<input id="deposit_checking" type="button" value="Deposit Checking" />
+							<input id="withdraw_checking" type="button" value="Withdraw from Checking" />
+						
+						</div>
+				</div> 
+
+				<div id="savingsaccount">
+					<h1>Savings Account</h1>
+					<div id="output_savings">balance: $<span id="balance_savings">1000</span>.00 - no overdraft available
+						</div>
+							<div id="controls_savings">
+							<input id="amount_savings" type="text" placeholder="Enter an amount" />
+							<input id="deposit_savings" type="button" value="Deposit to Savings" />
+							<input id="withdraw_savings" type="button" value="Withdraw from Savings" />
+							
+						</div> 
+				</div>		
+			</div>
+		</div>
+  </body>
+
+</html> <!--need to style: google web fonts, boxes, placeholder text -->
