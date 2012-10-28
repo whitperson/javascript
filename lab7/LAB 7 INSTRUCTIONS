@@ -1,0 +1,79 @@
+LAB 7 Lecture / Prep
+
+
+dynamically insert nodes into the DOM
+<p> w/ classes for CSS and text
+<span>
+<ul>
+
+~~~
+
+
+Step 1: 
+make a text box
+add button
+make two arrows  (famfamfam.com)
+click actions for right and left
+
+~~~
+
+Step 2: 
+type in some colors and  make boxes of colors based on the string of text inside
+add colors = 
+
+append colors
+loop through array
+
+css class of color
+target them based on THIS
+get color 
+$(this).css('background-color') --> tells you thr background color (doesn't set it)
+
+s = "blue, green, yellow"
+
+s.split(', ') // makes string into array 
+comma space is delimeter
+
+loop through array.length
+
+DONE
+~~
+
+
+Hover event handler for color boxes
+background color of text input area changes based on selected box(this.css(backround-color))
+
+
+~~
+
+Step 3:
+Click box to select and get black border
+click box to remove border
+
+if selected - null
+
+
+~~~
+
+Double click removes the box 
+remove.
+$(this).remove();
+
+~~~
+
+Step4 -- MOVING elements back and forth (one lime of code)
+var s = (this).prev
+this.before()
+
+s.prev
+s.next
+before/after 
+
+Hard part is selection of boxes
+
+global variable for "selected"
+var = selected initally is null
+var = selected == this
+(check by asking "does this == selected")
+
+Adrian mentioned global "boolean" variable 

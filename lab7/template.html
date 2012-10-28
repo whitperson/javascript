@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html> 
+	<head>
+		<title>Javascript Template</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="template.css">
+		<link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
+		<script src="jquery-1.8.2.js"></script>
+		<script src="template.js"></script>
+	</head>
+
+	<body>
+		<header>The Magic ColorBox Making-n-Moving Thingamajiggy</header>
+
+		<div class="controls">
+			<input id="inputcolors" type="text" placeholder="red, green, yellow " />
+			<h2>
+			<input id="createboxes" type="button" value="Create Boxes" />
+			<input id="moveleft" type="button" value=" <- Move Left" />
+			<input id="moveright" type="button" value="Move Right -> " />
+			<ul>
+				<li>Add names of colors to the text box and click the "create boxes" button to create them</li>
+				<li>Feel free to click the "create boxes" more than once to make lots of them</li>
+				<li>Hover over a box to change the background color of the text box to match it</li>
+				<li>Click on a box to to select it</li>
+				<li>Use the buttons to move it right or left</li>
+				<li>Double-click to delete</li>
+			</ul>
+		</div>
+
+		<div id="newboxes">
+		</div>
+
+	</body>
+
+</html>
